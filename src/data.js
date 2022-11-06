@@ -1,0 +1,59 @@
+import {
+  FaFacebook,FaTelegram,FaTwitter,FaInstagram,
+  FaHome,FaSearch,FaFile,FaSave,FaTools
+} from 'react-icons/fa'
+export const  menu=[
+  {
+    id:1,
+    text:'Home',
+    icon:<FaHome/>,
+    path:'/'
+  },
+  {
+    id:2,
+    text:'Search',
+    icon:<FaSearch/>,
+    path:'/search'
+  },
+  {
+    id:3,
+    text:'Document',
+    icon:<FaFile/>,
+    path:'/document'
+  },
+  {
+    id:4,
+    text:'Saved',
+    icon:<FaSave/>,
+    path:'/saved'
+  },
+  {
+    id:5,
+    text:'Settings',
+    icon:<FaTools/>,
+    path:'/settings'
+  },
+]
+
+export const social=[
+  {
+    id:1,
+    icon:<FaFacebook/>,
+    link:'/'
+  },
+  {
+    id:2,
+    icon:<FaTelegram/>,
+    link:'/'
+  },
+  {
+    id:3,
+    icon:<FaTwitter/>,
+    link:'/'
+  },
+  {
+    id:4,
+    icon:<FaInstagram/>,
+    link:'/'
+  }
+]
