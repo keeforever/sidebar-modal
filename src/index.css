@@ -28,9 +28,17 @@ body {
 }
 
 main {
-  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
 }
 
+.app-container {
+  min-height: 100vh;
+}
+
+.side-menu {
+  min-height: 100vh;
+}
 .side-menu ul {
   list-style: none;
 }
@@ -174,7 +182,6 @@ main {
 
 @media screen and (max-width: 768px) {
   .app-container {
-    height: 100%;
     display: grid;
   }
 
